@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(23, 17, 17, 0.899);
+}
+.sariqdiv{
+    background-color: yellow;
+    width: 1000px;
+    margin: 0  auto;
+}
+.birdiv{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.birdiv img{
+    width: 20px;
+    height: 20px;
+    padding-top: 200px;
+}
+.birdiv h1{
+    padding-top: 200px;
+    padding-left: 150px;
+    font-weight: 900;
+    font-size: 50px;
+}
+form label{
+    width: 100%;
+    display: block;
+    color: rgb(116, 111, 111);
+}
+.ikkidiv{
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    background-color: white;
+    margin-left: 500px;
+}
+.nom{
+    display: flex;
+}
+form input{
+    width: 500px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 80px;
+}
+.nom div{
+    width: 250px;
+}
+.box input{
+    width: 250px;
+}
+.ikkidiv img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+:placeholder-shown{
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: 700;
+}
+
